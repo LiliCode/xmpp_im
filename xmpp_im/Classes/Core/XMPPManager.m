@@ -10,6 +10,7 @@
 
 @interface XMPPManager ()<XMPPStreamDelegate>
 @property (strong , nonatomic) XMPPStream *stream;
+@property (copy , nonatomic) XMPPConnectCallback xmppConnectBlock;
 
 @end
 
@@ -85,7 +86,8 @@ static XMPPManager *manager;
 
 - (void)connectWithJID:(XMPPJID *)jid password:(NSString *)password completion:(XMPPConnectCallback)completion
 {
-    [self.stream setMyJID:jid]; // 设置当前用户
+    self.xmppConnectBlock = completion; // 回调
+    [self.stream setMyJID:jid];         // 设置当前用户
     [self.stream connectWithTimeout:XMPPStreamTimeoutNone error:nil];
 }
 
@@ -93,13 +95,19 @@ static XMPPManager *manager;
 
 - (void)xmppStreamDidConnect:(XMPPStream *)sender
 {
-    NSLog(@"链接成功");
+    // 连接成功就登录
+    
 }
 
 - (void)xmppStreamDidDisconnect:(XMPPStream *)sender withError:(NSError *)error
 {
-    NSLog(@"xmpp链接失败:%@", error);
+    if (self.xmppConnectBlock)
+    {
+        self.xmppConnectBlock(sender, error);
+    }
 }
+
+
 
 
 
