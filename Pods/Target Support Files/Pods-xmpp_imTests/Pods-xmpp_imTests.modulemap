@@ -1,0 +1,6 @@
+framework module Pods_xmpp_imTests {
+  umbrella header "Pods-xmpp_imTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
