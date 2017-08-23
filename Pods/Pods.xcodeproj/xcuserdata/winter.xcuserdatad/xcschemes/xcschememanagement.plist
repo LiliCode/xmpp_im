@@ -4,75 +4,125 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CocoaAsyncSocket.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>CocoaLumberjack.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HYBImageCliped.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>KissXML.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-xmpp_im.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-xmpp_imTests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-xmpp_imUITests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>XMPPFramework.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>14AFCEA92EF4FEE8970C243BEA3DACD1</key>
+		<key>0751EBF3C1EBFC8B91B149A501719449</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D80CDE20B3C89548DF045DE196B6FF9</key>
+		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52782788D876AB83C5CC3B9319248FC9</key>
+		<key>23CF27B2BA6AC7125EFFEDA8C5AA819F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC0D2D2B4EE7C873431AB3502859CA60</key>
+		<key>2B0CE89B0187895500EFA12FB63734A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D28BCDDBD8666AB0057184511CD5550F</key>
+		<key>2F9238902DB2B28026AEE012016BE349</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EA2A920A891C4D3535867E5C3EF3D793</key>
+		<key>36F90E40786F23DCD37A175A1052842D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F4B8C70379FF442A4FEB6759B3B7F9B8</key>
+		<key>370A19158589F52F94F851BE38465B2E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B37E19CA872A7535725D1E1946E5C271</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA9D8356DA9AF481244C61E47A83856F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1A24BC4C80CCDB74365D25A0E2F3305</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D258382015DB1C9C901E025181B36216</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBA6001481CEA0EBA031CC5C94508FAA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

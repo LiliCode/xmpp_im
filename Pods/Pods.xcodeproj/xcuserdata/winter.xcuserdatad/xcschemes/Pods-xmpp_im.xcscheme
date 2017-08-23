@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14AFCEA92EF4FEE8970C243BEA3DACD1"
+               BlueprintIdentifier = "2B0CE89B0187895500EFA12FB63734A5"
                BuildableName = "Pods_xmpp_im.framework"
                BlueprintName = "Pods-xmpp_im"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14AFCEA92EF4FEE8970C243BEA3DACD1"
+            BlueprintIdentifier = "2B0CE89B0187895500EFA12FB63734A5"
             BuildableName = "Pods_xmpp_im.framework"
             BlueprintName = "Pods-xmpp_im"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14AFCEA92EF4FEE8970C243BEA3DACD1"
-            BuildableName = "Pods_xmpp_im.framework"
-            BlueprintName = "Pods-xmpp_im"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

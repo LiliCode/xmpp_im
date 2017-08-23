@@ -16,7 +16,7 @@
 
 @implementation XMPPManager
 
-static XMPPManager *manager;
+static XMPPManager *manager = nil;
 
 + (instancetype)sharedManager
 {
@@ -57,7 +57,7 @@ static XMPPManager *manager;
         // 设置代理对象和执行代理方法的队列
         [self.stream addDelegate:self delegateQueue:self.xmppQueue];
         // 设置主机名
-        [self.stream setHostName:@"192.168.0.104"];
+        [self.stream setHostName:@"192.168.0.103"];
         // 设置端口号
         [self.stream setHostPort:5222];
     }
@@ -96,11 +96,13 @@ static XMPPManager *manager;
 - (void)xmppStreamDidConnect:(XMPPStream *)sender
 {
     // 连接成功就登录
+    NSLog(@"连接成功");
     
 }
 
 - (void)xmppStreamDidDisconnect:(XMPPStream *)sender withError:(NSError *)error
 {
+    NSLog(@"连接失败:%@", error);
     if (self.xmppConnectBlock)
     {
         self.xmppConnectBlock(sender, error);

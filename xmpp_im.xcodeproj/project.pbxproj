@@ -19,6 +19,18 @@
 		C8F348051F4C352A00E48E1D /* XMPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348041F4C352A00E48E1D /* XMPPManager.m */; };
 		C8F348081F4C3B3000E48E1D /* IMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348071F4C3B3000E48E1D /* IMLoginViewController.m */; };
 		C8F3480B1F4C3C4900E48E1D /* IMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3480A1F4C3C4900E48E1D /* IMUser.m */; };
+		C8F3485E1F4D539B00E48E1D /* HTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3485B1F4D539A00E48E1D /* HTTPRequestManager.m */; };
+		C8F3485F1F4D539B00E48E1D /* URLCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3485D1F4D539A00E48E1D /* URLCreator.m */; };
+		C8F348621F4D53A600E48E1D /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348611F4D53A600E48E1D /* ServerManager.m */; };
+		C8F348771F4D578F00E48E1D /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348681F4D578F00E48E1D /* NSObject+Extension.m */; };
+		C8F348781F4D578F00E48E1D /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3486A1F4D578F00E48E1D /* NSString+Extension.m */; };
+		C8F348791F4D578F00E48E1D /* UIAlertView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3486C1F4D578F00E48E1D /* UIAlertView+Extension.m */; };
+		C8F3487A1F4D578F00E48E1D /* UIAlertView+Response.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F3486E1F4D578F00E48E1D /* UIAlertView+Response.m */; };
+		C8F3487B1F4D578F00E48E1D /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348701F4D578F00E48E1D /* UIColor+Extension.m */; };
+		C8F3487C1F4D578F00E48E1D /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348721F4D578F00E48E1D /* UIFont+Extension.m */; };
+		C8F3487D1F4D578F00E48E1D /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348741F4D578F00E48E1D /* UIImage+Extension.m */; };
+		C8F3487E1F4D578F00E48E1D /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348761F4D578F00E48E1D /* UIImageView+Extension.m */; };
+		C8F348811F4D57B400E48E1D /* MBProgressHUD+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F348801F4D57B400E48E1D /* MBProgressHUD+Loading.m */; };
 		CD0F989533CB156B0E28CE45 /* Pods_xmpp_im.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82669463A4D1C8091714BD5 /* Pods_xmpp_im.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +80,33 @@
 		C8F348071F4C3B3000E48E1D /* IMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLoginViewController.m; sourceTree = "<group>"; };
 		C8F348091F4C3C4900E48E1D /* IMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUser.h; sourceTree = "<group>"; };
 		C8F3480A1F4C3C4900E48E1D /* IMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUser.m; sourceTree = "<group>"; };
+		C8F3485A1F4D539A00E48E1D /* HTTPRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequestManager.h; sourceTree = "<group>"; };
+		C8F3485B1F4D539A00E48E1D /* HTTPRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestManager.m; sourceTree = "<group>"; };
+		C8F3485C1F4D539A00E48E1D /* URLCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLCreator.h; sourceTree = "<group>"; };
+		C8F3485D1F4D539A00E48E1D /* URLCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLCreator.m; sourceTree = "<group>"; };
+		C8F348601F4D53A600E48E1D /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		C8F348611F4D53A600E48E1D /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		C8F348631F4D53BB00E48E1D /* LogConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogConfig.h; sourceTree = "<group>"; };
+		C8F348641F4D53BB00E48E1D /* MacroConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroConfig.h; sourceTree = "<group>"; };
+		C8F348661F4D564500E48E1D /* xmpp_im.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xmpp_im.pch; path = xmpp_im/xmpp_im.pch; sourceTree = SOURCE_ROOT; };
+		C8F348671F4D578F00E48E1D /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		C8F348681F4D578F00E48E1D /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		C8F348691F4D578F00E48E1D /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		C8F3486A1F4D578F00E48E1D /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		C8F3486B1F4D578F00E48E1D /* UIAlertView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extension.h"; sourceTree = "<group>"; };
+		C8F3486C1F4D578F00E48E1D /* UIAlertView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extension.m"; sourceTree = "<group>"; };
+		C8F3486D1F4D578F00E48E1D /* UIAlertView+Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Response.h"; sourceTree = "<group>"; };
+		C8F3486E1F4D578F00E48E1D /* UIAlertView+Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Response.m"; sourceTree = "<group>"; };
+		C8F3486F1F4D578F00E48E1D /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		C8F348701F4D578F00E48E1D /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		C8F348711F4D578F00E48E1D /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		C8F348721F4D578F00E48E1D /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		C8F348731F4D578F00E48E1D /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		C8F348741F4D578F00E48E1D /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		C8F348751F4D578F00E48E1D /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		C8F348761F4D578F00E48E1D /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		C8F3487F1F4D57B400E48E1D /* MBProgressHUD+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Loading.h"; sourceTree = "<group>"; };
+		C8F348801F4D57B400E48E1D /* MBProgressHUD+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Loading.m"; sourceTree = "<group>"; };
 		F7A4390C7B3E65D6E7CBE44E /* Pods-xmpp_imTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmpp_imTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xmpp_imTests/Pods-xmpp_imTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +179,7 @@
 				C8F347D31F4BDEE300E48E1D /* Main.storyboard */,
 				C8F347D61F4BDEE300E48E1D /* Assets.xcassets */,
 				C8F347D81F4BDEE300E48E1D /* LaunchScreen.storyboard */,
+				C8F348661F4D564500E48E1D /* xmpp_im.pch */,
 				C8F347DB1F4BDEE300E48E1D /* Info.plist */,
 				C8F347CA1F4BDEE300E48E1D /* Supporting Files */,
 			);
@@ -175,10 +215,13 @@
 		C8F347FD1F4C348600E48E1D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C8F348011F4C348600E48E1D /* Tools */,
+				C8F348651F4D53E900E48E1D /* Extension */,
+				C8F348571F4D51EC00E48E1D /* Configs */,
+				C8F348581F4D51EC00E48E1D /* Networking */,
 				C8F347FF1F4C348600E48E1D /* Core */,
 				C8F347FE1F4C348600E48E1D /* Controller */,
 				C8F348001F4C348600E48E1D /* Model */,
-				C8F348011F4C348600E48E1D /* Tools */,
 				C8F348021F4C348600E48E1D /* View */,
 			);
 			path = Classes;
@@ -214,6 +257,8 @@
 		C8F348011F4C348600E48E1D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C8F3487F1F4D57B400E48E1D /* MBProgressHUD+Loading.h */,
+				C8F348801F4D57B400E48E1D /* MBProgressHUD+Loading.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -223,6 +268,59 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C8F348571F4D51EC00E48E1D /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				C8F348631F4D53BB00E48E1D /* LogConfig.h */,
+				C8F348641F4D53BB00E48E1D /* MacroConfig.h */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		C8F348581F4D51EC00E48E1D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C8F348591F4D51EC00E48E1D /* NetConfig */,
+				C8F3485A1F4D539A00E48E1D /* HTTPRequestManager.h */,
+				C8F3485B1F4D539A00E48E1D /* HTTPRequestManager.m */,
+				C8F3485C1F4D539A00E48E1D /* URLCreator.h */,
+				C8F3485D1F4D539A00E48E1D /* URLCreator.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C8F348591F4D51EC00E48E1D /* NetConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C8F348601F4D53A600E48E1D /* ServerManager.h */,
+				C8F348611F4D53A600E48E1D /* ServerManager.m */,
+			);
+			path = NetConfig;
+			sourceTree = "<group>";
+		};
+		C8F348651F4D53E900E48E1D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C8F348671F4D578F00E48E1D /* NSObject+Extension.h */,
+				C8F348681F4D578F00E48E1D /* NSObject+Extension.m */,
+				C8F348691F4D578F00E48E1D /* NSString+Extension.h */,
+				C8F3486A1F4D578F00E48E1D /* NSString+Extension.m */,
+				C8F3486B1F4D578F00E48E1D /* UIAlertView+Extension.h */,
+				C8F3486C1F4D578F00E48E1D /* UIAlertView+Extension.m */,
+				C8F3486D1F4D578F00E48E1D /* UIAlertView+Response.h */,
+				C8F3486E1F4D578F00E48E1D /* UIAlertView+Response.m */,
+				C8F3486F1F4D578F00E48E1D /* UIColor+Extension.h */,
+				C8F348701F4D578F00E48E1D /* UIColor+Extension.m */,
+				C8F348711F4D578F00E48E1D /* UIFont+Extension.h */,
+				C8F348721F4D578F00E48E1D /* UIFont+Extension.m */,
+				C8F348731F4D578F00E48E1D /* UIImage+Extension.h */,
+				C8F348741F4D578F00E48E1D /* UIImage+Extension.m */,
+				C8F348751F4D578F00E48E1D /* UIImageView+Extension.h */,
+				C8F348761F4D578F00E48E1D /* UIImageView+Extension.m */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F8F45F21EB9954C6984CD07D /* Pods */ = {
@@ -422,7 +520,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7F22B01CAF0FA75A195A7FED /* [CP] Copy Pods Resources */ = {
@@ -482,7 +580,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		CC42E25BC7C42E81C887E800 /* [CP] Copy Pods Resources */ = {
@@ -512,7 +610,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -522,10 +620,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F3487D1F4D578F00E48E1D /* UIImage+Extension.m in Sources */,
+				C8F3487A1F4D578F00E48E1D /* UIAlertView+Response.m in Sources */,
 				C8F348081F4C3B3000E48E1D /* IMLoginViewController.m in Sources */,
 				C8F348051F4C352A00E48E1D /* XMPPManager.m in Sources */,
+				C8F348811F4D57B400E48E1D /* MBProgressHUD+Loading.m in Sources */,
+				C8F348771F4D578F00E48E1D /* NSObject+Extension.m in Sources */,
+				C8F3485F1F4D539B00E48E1D /* URLCreator.m in Sources */,
+				C8F3487E1F4D578F00E48E1D /* UIImageView+Extension.m in Sources */,
+				C8F3487B1F4D578F00E48E1D /* UIColor+Extension.m in Sources */,
 				C8F347CF1F4BDEE300E48E1D /* AppDelegate.m in Sources */,
+				C8F348791F4D578F00E48E1D /* UIAlertView+Extension.m in Sources */,
+				C8F348781F4D578F00E48E1D /* NSString+Extension.m in Sources */,
+				C8F348621F4D53A600E48E1D /* ServerManager.m in Sources */,
+				C8F3485E1F4D539B00E48E1D /* HTTPRequestManager.m in Sources */,
 				C8F347CC1F4BDEE300E48E1D /* main.m in Sources */,
+				C8F3487C1F4D578F00E48E1D /* UIFont+Extension.m in Sources */,
 				C8F3480B1F4C3C4900E48E1D /* IMUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -677,6 +787,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9T38J8SB57;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/xmpp_im/xmpp_im.pch";
 				INFOPLIST_FILE = xmpp_im/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.520lili.xmpp-im";
@@ -691,6 +802,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9T38J8SB57;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/xmpp_im/xmpp_im.pch";
 				INFOPLIST_FILE = xmpp_im/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.520lili.xmpp-im";

@@ -1,0 +1,34 @@
+//
+//  xmpp_im.pch
+//  xmpp_im
+//
+//  Created by winter on 2017/8/23.
+//  Copyright © 2017年 laidongling. All rights reserved.
+//
+
+#ifndef xmpp_im_pch
+#define xmpp_im_pch
+
+
+
+#import "LogConfig.h"
+#import "MacroConfig.h"
+#import "ServerManager.h"
+#import "HTTPRequestManager.h"
+
+
+#import "NSObject+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIImageView+Extension.h"
+#import "NSString+Extension.h"
+#import "UIAlertView+Response.h"
+#import "UIAlertView+Extension.h"
+#import "UIColor+Extension.h"
+#import "UIFont+Extension.h"
+#import "MBProgressHUD+Loading.h"
+
+
+#import "XMPPManager.h"
+
+
+#endif /* xmpp_im_pch */
