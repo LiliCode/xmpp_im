@@ -11,6 +11,7 @@
 @interface XMPPManager ()<XMPPStreamDelegate>
 @property (strong , nonatomic) XMPPStream *stream;
 @property (copy , nonatomic) XMPPConnectCallback xmppConnectBlock;
+@property (copy , nonatomic) NSString *xmppPassword;
 
 @end
 
@@ -87,7 +88,9 @@ static XMPPManager *manager = nil;
 - (void)connectWithJID:(XMPPJID *)jid password:(NSString *)password completion:(XMPPConnectCallback)completion
 {
     self.xmppConnectBlock = completion; // 回调
+    self.xmppPassword = password;       // 记录密码
     [self.stream setMyJID:jid];         // 设置当前用户
+    // 连接openfire服务器
     [self.stream connectWithTimeout:XMPPStreamTimeoutNone error:nil];
 }
 
@@ -96,21 +99,49 @@ static XMPPManager *manager = nil;
 - (void)xmppStreamDidConnect:(XMPPStream *)sender
 {
     // 连接成功就登录
-    NSLog(@"连接成功");
+    XMPPLog(@"Openfire服务器连接成功!");
     
+    // 登录
+    [self.stream authenticateWithPassword:self.xmppPassword error:nil];
 }
 
 - (void)xmppStreamDidDisconnect:(XMPPStream *)sender withError:(NSError *)error
 {
-    NSLog(@"连接失败:%@", error);
+    // 连接失败
+    XMPPLog(@"Openfire服务器连接失败:%@", error);
+    // 回调
     if (self.xmppConnectBlock)
     {
         self.xmppConnectBlock(sender, error);
     }
 }
 
+- (void)xmppStreamDidAuthenticate:(XMPPStream *)sender
+{
+    // 登录成功
+    XMPPLog(@"账号登录成功!");
+    // 回调
+    if (self.xmppConnectBlock)
+    {
+        self.xmppConnectBlock(sender, nil);
+    }
+}
 
+- (void)xmppStream:(XMPPStream *)sender didNotAuthenticate:(NSXMLElement *)error
+{
+    // 登录失败
+    XMPPLog(@"账号登录失败:%@ %@", error.name, error.stringValue);
+    // 注册账号
+    [self.stream registerWithPassword:self.xmppPassword error:nil];
+}
 
+- (void)xmppStreamDidRegister:(XMPPStream *)sender
+{
+    // 注册成功
+    XMPPLog(@"账号注册成功!");
+    // 登录账号
+    [self.stream authenticateWithPassword:self.xmppPassword error:nil];
+}
 
 
 @end

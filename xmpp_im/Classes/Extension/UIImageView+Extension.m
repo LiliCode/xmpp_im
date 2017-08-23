@@ -115,7 +115,7 @@
         
         if (!error && error.userInfo.count)
         {
-            GALog(@"图片连接错误: %@ 图片链接: %@", error.userInfo[NSLocalizedDescriptionKey], imageURL.absoluteString);
+            XMPPLog(@"图片连接错误: %@ 图片链接: %@", error.userInfo[NSLocalizedDescriptionKey], imageURL.absoluteString);
         }
     }];
 }

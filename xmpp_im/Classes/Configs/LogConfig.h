@@ -13,8 +13,8 @@
 
 #define DEBUG_LOG (1)
 
-#define GALog(frmt, ...) do { if (DEBUG_LOG) NSLog((frmt), ##__VA_ARGS__); } while(0)
+#define XMPPLog(frmt, ...) do { if (DEBUG_LOG) NSLog((frmt), ##__VA_ARGS__); } while(0)
 
-#define NSLog_debug(frmt, ...) GALog((frmt), ##__VA_ARGS__)
+#define NSLog_debug(frmt, ...) XMPPLog((frmt), ##__VA_ARGS__)
 
 #endif /* LogConfig_h */

@@ -91,7 +91,7 @@ static ServerManager *manager = nil;
 - (void)getServerPath
 {
     // 获取服务器地址...
-    GALog(@"获取服务器地址...");
+    XMPPLog(@"获取服务器地址...");
 }
 
 
