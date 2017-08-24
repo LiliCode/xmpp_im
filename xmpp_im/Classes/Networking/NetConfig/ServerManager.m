@@ -17,18 +17,17 @@ NSString * const HTTP_PROFIX = @"https://";
 NSString * const HTTP_PROFIX = @"http://";
 #endif
 
-
 #if OPEN_PRODUCT
 
-NSString *const PRODUCT_SERVER_PATH = @"www.gaia.com/";
-NSString *const PRODUCT_ASSET_PATH = @"www.gaia.com/img/";
-NSString *const PRODUCT_HTML_PATH = @"www.gaia.com/web/";
+NSString *const PRODUCT_SERVER_PATH = @"api.ehuu.com/site-api";
+NSString *const PRODUCT_ASSET_PATH = @"image.ehuu.com/store";
+NSString *const PRODUCT_HTML_PATH = @"api.ehuu.com/#";
 
 #else
 
-NSString *const PRODUCT_SERVER_PATH = @"www.gaia.com/";
-NSString *const PRODUCT_ASSET_PATH = @"www.gaia.com/img/";
-NSString *const PRODUCT_HTML_PATH = @"www.gaia.com/web/";
+NSString *const PRODUCT_SERVER_PATH = @"api.ehuu.com/site-api";
+NSString *const PRODUCT_ASSET_PATH = @"image.ehuu.com/store";
+NSString *const PRODUCT_HTML_PATH = @"api.ehuu.com/#";
 
 #endif
 

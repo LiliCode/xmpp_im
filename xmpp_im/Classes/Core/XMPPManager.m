@@ -58,7 +58,7 @@ static XMPPManager *manager = nil;
         // 设置代理对象和执行代理方法的队列
         [self.stream addDelegate:self delegateQueue:self.xmppQueue];
         // 设置主机名
-        [self.stream setHostName:@"192.168.0.103"];
+        [self.stream setHostName:@"192.168.0.101"];
         // 设置端口号
         [self.stream setHostPort:5222];
     }

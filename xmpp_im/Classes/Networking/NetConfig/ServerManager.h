@@ -12,7 +12,7 @@
  生产环境和测试环境切换
  ----备注：1 开启生产环境、 0 关闭生产环境，进入到测试环境
  */
-#define OPEN_PRODUCT (0)
+#define OPEN_PRODUCT (1)
 
 /**
  开启HTTPS安全模式
